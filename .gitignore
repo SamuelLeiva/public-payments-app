@@ -1,0 +1,94 @@
+# ============================================
+# 🌍 GLOBAL SETTINGS
+# ============================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Dist folders (Nest build output)
+dist/
+.out/
+build/
+.next/
+.cache/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+lcov-report/
+
+# ============================================
+# 🐋 DOCKER
+# ============================================
+
+# Ignore docker-compose local overrides
+docker-compose.override.yml
+docker-data/
+postgres-data/
+rabbitmq-data/
+
+# ============================================
+# 🧩 PRISMA
+# ============================================
+
+# Prisma generated client
+prisma/generated/
+# Migrations (optional to ignore if auto-generated per env)
+# prisma/migrations/
+
+# ============================================
+# 🧪 TESTING
+# ============================================
+
+# Vitest / Jest
+coverage/
+.vitest/
+jest-cache/
+jest.config.js.map
+
+# ============================================
+# 💻 IDE / EDITOR
+# ============================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# 📦 MONOREPO (NX / PNPM)
+# ============================================
+
+# Nx cache
+.nx/
+# Pnpm store
+.pnpm-store/
+# Global pnpm logs
+.pnpm-debug.log
