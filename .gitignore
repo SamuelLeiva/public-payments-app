@@ -57,7 +57,7 @@ rabbitmq-data/
 # ============================================
 
 # Prisma generated client
-prisma/generated/
+generated
 # Migrations (optional to ignore if auto-generated per env)
 # prisma/migrations/
 
