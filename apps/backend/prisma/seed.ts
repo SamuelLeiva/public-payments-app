@@ -32,7 +32,7 @@ async function main() {
       firstSurname: 'Lopez',
       secondSurname: 'Perez',
       age: 30,
-      gender: 'MASCULINE',
+      gender: 'MALE',
       birthDate: new Date('1993-01-15'),
       dni: '12345678',
       address: '123 Main St, Cityville',

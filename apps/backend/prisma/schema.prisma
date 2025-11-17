@@ -23,7 +23,7 @@ enum Role {
 }
 
 enum Gender {
-  MASCULINE
+  MALE
   FEMALE
 }
 
