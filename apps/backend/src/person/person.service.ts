@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
-import { DatabaseService } from 'src/core/database/database.service';
+import { PrismaService } from 'src/prisma.service';
 
 @Injectable()
 export class PersonService {
-    constructor(private prisma: DatabaseService) {
-
+    constructor(private prisma: PrismaService) {
+        
     }
 
     async findPersonById(id: string) {
